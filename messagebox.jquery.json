@@ -34,7 +34,7 @@
     "bugs": "https://github.com/mpsiva89/jquery-messagebox/issues",
     "homepage": "https://github.com/mpsiva89/jquery-messagebox",
     "docs": "https://github.com/mpsiva89/jquery-messagebox",
-    "download": "https://github.com/mpsiva89/jquery-messagebox",
+    "download": "https://github.com/mpsiva89/jquery-messagebox/archive/master.zip",
     "dependencies": {
         "jquery": ">=1.5"
     }
