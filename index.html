@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Message box</title>
+        <link rel="stylesheet" type="text/css" href="includes/css/messagebox.css" />
+        <script src="includes/js/jquery-1.10.0.min.js"></script>
+    </head>
+    <body>
+        <button id="test">Alert</button>
+        <div id="testElement">
+        	Hello how are you
+        	<button>ElementButton</button>
+       	</div>
+        <script src="includes/js/jquery.messagebox.js"></script>
+        <script>
+        	$('#test').messagebox({
+        		title:'Title for Siva', 
+        		messageText: 'Hello Siva',
+        		messageSubType: 'warning',
+        		messageType : 'alert',
+        		OkCallback: function() {
+        			alert('You pressed OK');
+        		},
+        		onClose: function() {
+        			alert('You closed the message box');
+        		},
+        		onCancel: function() {
+        			alert('You pressed cancel');
+        		} 
+        	});
+        	$('#testElement').messagebox({
+        		title:'Another Element', 
+        		messageText: 'Hello Siva',
+        		messageType : 'confirm',
+        		height: 100,
+        		width: 400,
+        		OkCallback: function() {
+        			alert('You pressed OK');
+        		},
+        		onClose: function() {
+        			alert('You closed the message box');
+        		},
+        		onCancel: function() {
+        			alert('You pressed cancel');
+        		} 
+        	});
+        </script>
+    </body>
+</html>
