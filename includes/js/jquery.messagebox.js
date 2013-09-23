@@ -1,5 +1,5 @@
 /*
-	Custom Message box plugin for jQuery
+	Custom Message box plugin for jQuery (https://github.com/mpsiva89/jquery-messagebox)
 	Copyright (c) 2013 SivaKumar and Jeyadevan
 	Licensed under the MIT license (http://opensource.org/licenses/mit-license.html)
 	Version: 1.0
